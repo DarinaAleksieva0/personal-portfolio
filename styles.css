@@ -79,7 +79,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: var(--main-white); */
     background-image: linear-gradient(to top left, #303841, #45567d);
 }
 
@@ -247,4 +246,77 @@ body {
     text-decoration: none;
     font-size: 1.25rem;
     font-style: italic;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-gray);
+    width: 100%;
+    height: 80vh;
+    padding: 10rem 2rem;
+}
+
+.contacts-section-heading{
+    font-style: italic;
+    text-align: center;
+}
+
+.contacts-section-heading h3{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: var(--main-white);
+    margin: 0 auto 20px auto;
+}
+
+.contacts-section-heading p{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: var(--main-white);
+    letter-spacing: 3px;
+}
+
+.contact-span {
+    color: var(--main-red);
+}
+
+.contact-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.contact-socials a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--main-white);
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+.contact-socials a:hover{
+    color: var(--main-red);
+    transition: color 0.3 ease-out;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-gray);
+    border-top: 1px solid var(--main-red);
+    width: 100%;
+    height: 10vh;
+}
+
+footer p{
+    color: var(--main-white);
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 1.2px;
 }
