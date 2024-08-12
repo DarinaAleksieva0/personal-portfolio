@@ -140,6 +140,8 @@ body {
     color: var(--main-white)
 }
 
+/*project section*/
+
 #projects-section {
     display: flex;
     flex-direction: column;
@@ -240,7 +242,6 @@ body {
     transition: 0.2s ease-out;
 }
 
-
 .projects-btn a {
     color: var(--main-white);
     text-decoration: none;
@@ -286,7 +287,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem;
+    padding: 5rem;
     flex-wrap: wrap;
     gap: 4px;
 }
@@ -320,3 +321,416 @@ footer p{
     font-style: italic;
     letter-spacing: 1.2px;
 }
+
+/*responsive design*/
+@media (max-width: 575.98px){
+    .header{
+        align-items:center ;
+        justify-content: center;
+    }
+    .name-heading{
+        font-size: 1rem;
+        padding: 0 1rem;
+    } 
+    .nav-bar{
+        padding: 1rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .nav-elements{
+        padding: 0 0.75rem;
+    }
+    .nav-link:hover{
+        padding: 1rem;
+    }
+    #welcome-section{
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    .welcome-section-header h1{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .welcome-section-header p{
+        font-weight: normal;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .cv-section{
+        margin-top: 5rem;
+    }
+    .cv-section h3{
+        font-size: 1rem;
+    }
+    .cv-btn{
+        padding: 0.75rem 2rem;
+    }
+    .cv-btn a{
+        font-size: 0.75rem;
+    }
+    #projects-section{
+        padding: 3rem 2rem; 
+        text-align: center;
+    }
+    .projects-section-header{
+        font-size: 1rem;
+    }
+    .line{
+        display: none;
+    }
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-item {
+        border: none;
+        background-color: var(--main-gray);
+        height: 180px;
+        font-size: 0.5rem;
+    }
+    #icon{
+        display: none;
+    }
+    .project-title {
+        font-size: 1.2rem;
+    }
+    .projects-btn{
+        padding: 0.75rem 2rem;
+        margin-top: 8rem
+    }
+    .projects-btn a{
+        font-size: 1rem;
+    }
+    .contact{
+        height: 80vh;
+    }
+    .contacts-section-heading h3{
+        font-size: 1.5rem;
+        padding-top: 5rem;
+    }
+    .contacts-section-heading p{
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+    .contact-socials{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .contact-socials a{
+        padding: 1rem;
+       font-size: 1rem;
+    }
+    footer p{
+        font-size: 0.75rem;
+    }
+}
+   
+ 
+@media (min-width: 576px) and (max-width: 767.98px){
+    .header{
+        align-items:center ;
+        justify-content: center;
+    }
+    .name-heading{
+        font-size: 1rem;
+        padding: 0 1rem;
+    } 
+    .nav-bar{
+        padding: 1rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .nav-elements{
+        padding: 0 0.75rem;
+    }
+    .nav-link:hover{
+        padding: 1rem;
+    }
+    #welcome-section{
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    .welcome-section-header h1{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .welcome-section-header p{
+        font-weight: normal;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .cv-section{
+        margin-top: 5rem;
+    }
+    .cv-section h3{
+        font-size: 1rem;
+    }
+    .cv-btn{
+        padding: 0.75rem 2rem;
+    }
+    .cv-btn a{
+        font-size: 0.75rem;
+    }
+    #projects-section{
+        padding: 3rem 2rem; 
+        text-align: center;
+    }
+    .projects-section-header{
+        font-size: 1rem;
+    }
+    .line{
+        display: none;
+    }
+    .projects-grid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid-item {
+        border: none;
+        background-color: var(--main-gray);
+        font-size: 0.5rem;
+    }
+    #icon{
+        display: none;
+    }
+    .project-title {
+        font-size: 1.2rem;
+    }
+    .projects-btn{
+        padding: 0.75rem 2rem;
+        margin-top: 6rem;
+    }
+    .projects-btn a{
+        font-size: 1rem;
+    }
+    .contact{
+        height: 80vh;
+    }
+    .contacts-section-heading h3{
+        font-size: 1.5rem;
+        padding-top: 5rem;
+    }
+    .contacts-section-heading p{
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+    .contact-socials{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .contact-socials a{
+        padding: 1rem;
+       font-size: 1rem;
+    }
+    footer p{
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .header{
+        align-items:center ;
+        justify-content: center;
+    }
+    .name-heading{
+        font-size: 1rem;
+        padding: 0 1rem;
+    } 
+    .nav-bar{
+        padding: 1rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .nav-elements{
+        padding: 0 0.75rem;
+    }
+    .nav-link:hover{
+        padding: 1rem;
+    }
+    #welcome-section{
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    .welcome-section-header h1{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .welcome-section-header p{
+        font-weight: normal;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .cv-section{
+        margin-top: 5rem;
+    }
+    .cv-section h3{
+        font-size: 1rem;
+    }
+    .cv-btn{
+        padding: 0.75rem 2rem;
+    }
+    .cv-btn a{
+        font-size: 0.75rem;
+    }
+    #projects-section{
+        padding: 3rem 2rem; 
+        text-align: center;
+    }
+    .projects-section-header{
+        font-size: 1rem;
+    }
+    .line{
+        display: none;
+    }
+    .projects-grid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid-item {
+        border: none;
+        background-color: var(--main-gray);
+        font-size: 0.5rem;
+    }
+    #icon{
+        display: none;
+    }
+    .project-title {
+        font-size: 1.2rem;
+    }
+    .projects-btn{
+        padding: 0.75rem 2rem;
+        margin-top: 6rem;
+    }
+    .projects-btn a{
+        font-size: 1rem;
+    }
+    .contact{
+        height: 80vh;
+    }
+    .contacts-section-heading h3{
+        font-size: 1.5rem;
+        padding-top: 5rem;
+    }
+    .contacts-section-heading p{
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+    .contact-socials{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .contact-socials a{
+        padding: 1rem;
+       font-size: 1rem;
+    }
+    footer p{
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header{
+        align-items:center ;
+        justify-content: center;
+    }
+    .name-heading{
+        font-size: 1rem;
+        padding: 0 1rem;
+    } 
+    .nav-bar{
+        padding: 1rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .nav-elements{
+        padding: 0 0.75rem;
+    }
+    .nav-link:hover{
+        padding: 1rem;
+    }
+    #welcome-section{
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    .welcome-section-header h1{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .welcome-section-header p{
+        font-weight: normal;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .cv-section{
+        margin-top: 5rem;
+    }
+    .cv-section h3{
+        font-size: 1rem;
+    }
+    .cv-btn{
+        padding: 0.75rem 2rem;
+    }
+    .cv-btn a{
+        font-size: 0.75rem;
+    }
+    #projects-section{
+        padding: 3rem 2rem; 
+        text-align: center;
+    }
+    .projects-section-header{
+        font-size: 1rem;
+    }
+    .line{
+        display: none;
+    }
+    .projects-grid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid-item {
+        border: none;
+        background-color: var(--main-gray);
+        font-size: 0.5rem;
+    }
+    #icon{
+        display: none;
+    }
+    .project-title {
+        font-size: 1.2rem;
+    }
+    .projects-btn{
+        padding: 0.75rem 2rem;
+        margin-top: 6rem;
+    }
+    .projects-btn a{
+        font-size: 1rem;
+    }
+    .contact{
+        height: 80vh;
+    }
+    .contacts-section-heading h3{
+        font-size: 1.5rem;
+        padding-top: 5rem;
+    }
+    .contacts-section-heading p{
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+    .contact-socials{
+        padding: 2rem;
+    }
+    .contact-socials a{
+        padding: 1rem;
+       font-size: 1rem;
+    }
+    footer p{
+        font-size: 0.75rem;
+    }
+} 
