@@ -323,7 +323,7 @@ footer p{
 }
 
 /*responsive design*/
-@media (max-width: 575.98px){
+@media only screen and (max-width: 575.98px){
     .header{
         align-items:center;
         justify-content: center;
@@ -428,7 +428,7 @@ footer p{
 }
    
  
-@media (min-width: 576px) and (max-width: 767.98px){
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
     .header{
         align-items:center ;
         justify-content: center;
@@ -531,7 +531,7 @@ footer p{
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px){
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
     .header{
         align-items:center ;
         justify-content: center;
@@ -634,7 +634,7 @@ footer p{
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
     .header{
         align-items:center ;
         justify-content: center;
